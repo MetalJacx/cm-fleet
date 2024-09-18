@@ -1,6 +1,6 @@
 namespace: cmtest
 helm:
-  chart: https://github.com/cert-manager/cert-manager/archive/refs/tags/v1.15.3.tar.gz
+  repo: https://charts.jetstack.io
   values:
     namespace: cmtest
     crds:
