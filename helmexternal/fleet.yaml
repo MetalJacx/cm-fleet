@@ -1,5 +1,6 @@
 defaultNamespace: cmtest
 helm:
+  releaseName: cert-manager
   chart: git@github.com:cert-manager/cert-manager//deploy/charts/cert-manager/Chart.template.yaml
   #repo: https://charts.jetstack.io
   #version: v1.15.3
