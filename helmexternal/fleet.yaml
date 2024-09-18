@@ -2,3 +2,8 @@ namespace: cmtest
 helm:
   repo: https://charts.jetstack.io
   chart: jetstack/cert-manager
+  values:
+    namespace: cmtest
+    crds:
+      enabled: true
+      keep: false
