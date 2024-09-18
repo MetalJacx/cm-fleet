@@ -1,9 +1,9 @@
 defaultNamespace: cmtest
 helm:
   releaseName: test-cert-manager
-  chart: https://charts.jetstack.io/charts/cert-manager-v1.15.3.tgz
-  #repo: https://charts.jetstack.io
-  #version: 1.15.3
+  chart: cert-manager/cert-manager
+  repo: https://charts.jetstack.io
+  version: 1.15.3
   values:
     namespace: cmtest
     crds:
