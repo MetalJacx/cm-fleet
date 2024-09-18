@@ -1,6 +1,6 @@
 namespace: cmtest
 helm:
-  chart: cert-manager/cert-manager
+  chart: cert-manager
   repo: https://charts.jetstack.io
   version: v1.15.3
   values:
