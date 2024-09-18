@@ -1,7 +1,7 @@
 namespace: cmtest
 helm:
-  repo: https://charts.jetstack.io
-  chart: jetstack/cert-manager
+  repo: https://github.com/cert-manager/cert-manager
+  chart: ./Chart
   values:
     namespace: cmtest
     crds:
