@@ -1,7 +1,6 @@
 namespace: cmtest
 helm:
-  repo: https://github.com/cert-manager/cert-manager
-  chart: ""
+  chart: https://github.com/cert-manager/cert-manager/archive/refs/tags/v1.15.3.tar.gz
   values:
     namespace: cmtest
     crds:
