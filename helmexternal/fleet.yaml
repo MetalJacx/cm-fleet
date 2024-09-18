@@ -1,0 +1,4 @@
+namespace: cmtest
+helm:
+  repo: https://charts.jetstack.io
+  chart: jetstack/cert-manager
