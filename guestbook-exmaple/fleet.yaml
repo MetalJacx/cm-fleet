@@ -11,7 +11,7 @@ targetCustomizations:
       env: dev
 
 - name: tool
-  defaultNamespace: exdev-gb-joeb
+  defaultNamespace: extool-gb-joeb
   helm:
     values:
       replicas: 3
