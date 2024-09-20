@@ -3,7 +3,7 @@ targetCustomizations:
 - name: dev
   helm:
     values:
-      replication: 2
+      replicas: 2
   clusterName: phx-bmc-development    
   clusterSelector:
     matchLabels:
