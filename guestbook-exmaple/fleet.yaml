@@ -1,5 +1,6 @@
 defaultNamespace: example-gb-joeb
 targetCustomizations:
+defaultNamespace: exdev-gb-joeb
 - name: dev
   helm:
     values:
@@ -10,6 +11,7 @@ targetCustomizations:
       env: dev
 
 - name: tool
+  defaultNamespace: exdev-gb-joeb
   helm:
     values:
       replicas: 3
