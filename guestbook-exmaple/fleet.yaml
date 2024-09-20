@@ -1,7 +1,7 @@
 defaultNamespace: example-gb-joeb
 targetCustomizations:
-defaultNamespace: exdev-gb-joeb
 - name: dev
+  defaultNamespace: exdev-gb-joeb
   helm:
     values:
       replicas: 2
