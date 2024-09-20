@@ -4,6 +4,7 @@ targetCustomizations:
   helm:
     values:
       replication: 2
+  clusterName: phx-bmc-development    
   clusterSelector:
     matchLabels:
       env: dev
@@ -12,6 +13,7 @@ targetCustomizations:
   helm:
     values:
       replicas: 3
+  clusterName: phx-bmc-tools     
   clusterSelector:
     matchLabels:
       env: tools
