@@ -1,4 +1,3 @@
-defaultNamespace: example-gb-joeb
 targetCustomizations:
 - name: dev
   defaultNamespace: exdev-gb-joeb
